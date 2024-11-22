@@ -20,7 +20,6 @@ class Article(db.Model):
         return '<Article %r>' % self.id
 
 
-
 @app.route('/')
 @app.route('/home')
 def index():
